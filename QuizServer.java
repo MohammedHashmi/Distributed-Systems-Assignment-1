@@ -4,8 +4,8 @@ import java.util.*;
 
 public class QuizServer {
     // Initialization of all the main aspects of the code including bonus time and points, array of connected client, organiziation if 
-    private static final int PORT = 4000;
-    private static final int BONUS_TIME_LIMIT = 5555; 
+    private static final int PORT = 5555;
+    private static final int BONUS_TIME_LIMIT = 5000; 
     private static final int BONUS_POINTS = 5; // the amou
     private static List<ClientHandler> clients = new ArrayList<>();
     private static Map<String, List<Question>> questionsByCategory = new HashMap<>();
